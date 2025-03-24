@@ -1,4 +1,3 @@
-const tl = gsap.timeline({ repeat: -1 }); // Infinite loop
 
 gsap.to('.imagecontainer', {
     width: "100%",

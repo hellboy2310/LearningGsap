@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg, 17%, 70%);
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    /* background-color: red; */
+}
+
+#part2 {
+    height: 100%;
+    width: 68%;
+    /* background-color: blue; */
+    background-image: url(https://images.unsplash.com/photo-1556347961-f9521a88cb8a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(348, 89%, 17%, 0.281)
+}
+
+#part3 {
+    height: 100%;
+    width: 6%;
+    /* background-color: green; */
+}
+
+#text-div {
+    position: absolute;
+    /* height: 300px; */
+    /* background-color: red; */
+    width: 400px;
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1 {
+    font-size: 78px;
+    color: whitesmoke;
+    font-family: 'Monument';
+    font-weight: 900;
+    letter-spacing: 8px;
+    line-height: 78px;
+}
+
+#small-img-div {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1588569362748-b9131fd9da92?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+
+#vertical-text {
+    position: absolute;
+    right: 0%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    right: -57%;
+    top: -10%;
+}
+
+#vertical-text {
+    font-size: 80px;
+    font-weight: 900px;
+    font-family: 'Monument';
+    color: transparent;
+    letter-spacing: 20px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-transform: uppercase;
+}
